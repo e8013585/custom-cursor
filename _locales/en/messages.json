@@ -1,0 +1,110 @@
+{
+  "extensionName": {
+    "message": "Custom Cursor",
+    "description": "Name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Custom Cursor",
+    "description": "Short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Apply beautiful custom cursors to every webpage you visit.",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "Custom Cursor",
+    "description": "Title shown in the popup header"
+  },
+  "popupSubtitle": {
+    "message": "Choose your cursor style",
+    "description": "Subtitle shown below the popup title"
+  },
+  "cursorDefault": {
+    "message": "Default",
+    "description": "Name of the default system cursor style"
+  },
+  "cursorCrosshair": {
+    "message": "Crosshair",
+    "description": "Name of the crosshair cursor style"
+  },
+  "cursorPointerDot": {
+    "message": "Pointer Dot",
+    "description": "Name of the pointer dot cursor style"
+  },
+  "cursorNeonRing": {
+    "message": "Neon Ring",
+    "description": "Name of the neon ring cursor style"
+  },
+  "cursorArrowClassic": {
+    "message": "Arrow Classic",
+    "description": "Name of the classic arrow cursor style"
+  },
+  "cursorRetroPixel": {
+    "message": "Retro Pixel",
+    "description": "Name of the retro pixel cursor style"
+  },
+  "cursorFeather": {
+    "message": "Feather",
+    "description": "Name of the feather cursor style"
+  },
+  "cursorPawPrint": {
+    "message": "Paw Print",
+    "description": "Name of the paw print cursor style"
+  },
+  "cursorStar": {
+    "message": "Star",
+    "description": "Name of the star cursor style"
+  },
+  "cursorHeart": {
+    "message": "Heart",
+    "description": "Name of the heart cursor style"
+  },
+  "cursorDiamond": {
+    "message": "Diamond",
+    "description": "Name of the diamond cursor style"
+  },
+  "cursorLeaf": {
+    "message": "Leaf",
+    "description": "Name of the leaf cursor style"
+  },
+  "activeLabel": {
+    "message": "Active",
+    "description": "Label shown on the currently active cursor card"
+  },
+  "previewAreaLabel": {
+    "message": "Cursor preview area",
+    "description": "Aria-label for the cursor preview div inside each card"
+  },
+  "cardAriaLabel": {
+    "message": "Select $CURSOR_NAME$ cursor",
+    "description": "Aria-label for each cursor selection card",
+    "placeholders": {
+      "cursor_name": {
+        "content": "$1",
+        "example": "Heart"
+      }
+    }
+  },
+  "activeAriaLabel": {
+    "message": "Currently active: $CURSOR_NAME$ cursor",
+    "description": "Aria-label for the active cursor card",
+    "placeholders": {
+      "cursor_name": {
+        "content": "$1",
+        "example": "Heart"
+      }
+    }
+  },
+  "footerText": {
+    "message": "Hover a card to preview \u00b7 Click to apply",
+    "description": "Helper text shown at the bottom of the popup"
+  },
+  "storageErrorMsg": {
+    "message": "Could not save cursor preference.",
+    "description": "Error message when storage write fails"
+  },
+  "injectErrorMsg": {
+    "message": "Could not apply cursor to this tab.",
+    "description": "Error message when script injection fails"
+  }
+}

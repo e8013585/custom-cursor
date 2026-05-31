@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data:;"/>
+  <title data-i18n="popupTitle"></title>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+
+  <header class="cc-header" role="banner">
+    <div class="cc-header__icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true" focusable="false">
+        <path d="M18.37 2.63 14 7l-1.59-1.59a2 2 0 0 0-2.82 0L8 7l9 9 1.59-1.59a2 2 0 0 0 0-2.82L17 10l4.37-4.37a2.12 2.12 0 1 0-3-3Z"/>
+        <path d="M9 8c-2 3-4 3.5-7 4l8 8c1-.5 3.5-2 4-7"/>
+        <path d="M14.5 17.5 4.5 15"/>
+      </svg>
+    </div>
+    <div class="cc-header__text">
+      <h1 class="cc-header__title" data-i18n="popupTitle"></h1>
+      <p  class="cc-header__subtitle" data-i18n="popupSubtitle"></p>
+    </div>
+  </header>
+
+  <main class="cc-main" role="main">
+    <div class="cc-grid"
+         id="cursorGrid"
+         role="listbox"
+         aria-label=""
+         data-i18n-aria="popupSubtitle">
+    </div>
+  </main>
+
+  <footer class="cc-footer" role="contentinfo">
+    <p class="cc-footer__text" data-i18n="footerText"></p>
+  </footer>
+
+  <div class="cc-toast" id="ccToast" role="alert" aria-live="assertive" aria-atomic="true"></div>
+
+  <script src="cursors.js"></script>
+  <script src="popup.js"></script>
+
+</body>
+</html>
